@@ -16,6 +16,18 @@ To-Do:
 * Update the read-me file
 
 ## 1. Installation
+
+### With Dockfile
+* Download the Dockerfile, go in to the folder where the Dockerfile store
+* Pull out the container - install all the requirements - download the pre-trained weight - run the script
+```
+docker build -t wasr_docker .
+```
+* Show result
+```
+docker run --gpus all -it --rm -e DISPLAY=${DISPLAY} -v /tmp/.X11-unix:/tmp/.X11-unix -v $HOME:/home/$USER wasr_docker bash -c "display /home/docker/wasr_network/test.jpg & display /home/docker/wasr_network/output/output_mask.png"
+```
+
 ### Requirements
 To successfully run WaSR you will need the following packages:
 * <a href="https://www.python.org/">Python</a> >= 2.7.14
