@@ -1,0 +1,2 @@
+model_checkpoint_path: "/opt/workspace/host_storage_hdd/boat/weights_models/snapshots_arm8_rmsprop_noimu/arm8imu3_noimu.ckpt-80000"
+all_model_checkpoint_paths: "/opt/workspace/host_storage_hdd/boat/weights_models/snapshots_arm8_rmsprop_noimu/arm8imu3_noimu.ckpt-80000"
