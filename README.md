@@ -121,7 +121,7 @@ The above command will take image <i>example_1.jpg</i> from folder <i>test_image
  <td>Example input image</td> <td>Example segmentation output</td>
 </tr>
 <tr>
- <td><img src="test_images/example_1.jpg"></td> <td><img src="output/output_mask_1.png"></td>
+ <td><img src="test_images/example_1.jpg"></td> <td><img src="https://raw.githubusercontent.com/bborja/wasr_network/master/output/output_mask_1.png"></td>
 </tr>
 </table>
 
