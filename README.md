@@ -18,6 +18,13 @@ To-Do:
 ## 1. Installation
 
 ### With Dockfile
+
+#### Requirements
+* Dockerfile is created for tensorflow-gpu 1.8.0 in python 2.7, base from docker image of tensorflow:tensorflow tag 1.8.0-gpu
+* You need to have NVIDIA graphic card compatible to at least CUDA 8.0
+* The container-toolkit must be installed follow NVIDIA's [Instruction](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
+* In case you don't have NVIDA graphic card, then edit the Dockerfile to remove all the GPU requirements
+#### Instructions
 * Download the Dockerfile, go in to the folder where the Dockerfile store
 * Pull out the container - install all the requirements - download the pre-trained weight - run the script
 ```
